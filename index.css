@@ -1,0 +1,78 @@
+/* Qiang Jiang */
+@charset "UTF-8";
+
+body {
+    background-image: url(background.jpg);
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #be431e;
+    background-image: url(images/favicon.png);
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #FF9;
+    line-height: 400%;
+    text-indent: 1em;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, Times New Roman, serif;
+}
+
+nav {
+    background-color: #be431e;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+p {
+    text-indent: 2em;
+}
+
+footer {
+    font-style: italic;
+    font-size: .50em;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.gallery {
+
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+}
+
+.gallery:hover {
+    border-radius: 25px;
+    box-shadow: 10px -10px grey; 
+    border: 1px solid grey;
+}
+
+.gallery a:hover,
+.gallery a:hover:visited {
+    color: rgb(223, 163, 11);
+}
+
+.gallery a:visited {
+    color: green;
+}
